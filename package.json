@@ -1,0 +1,51 @@
+{
+  "name": "ai-driven-3d-geometry-visualizer",
+  "version": "1.0.0",
+  "description": "Web application that allows users to generate 3D geometric shape visualizations based on textual descriptions.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "build": "react-scripts build",
+    "test": "jest"
+  },
+  "keywords": [
+    "AI",
+    "3D",
+    "Geometry",
+    "Visualizer",
+    "OpenAI",
+    "React.js",
+    "Node.js",
+    "Three.js",
+    "Babylon.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "axios": "^0.21.1",
+    "three": "^0.132.2",
+    "openai": "^0.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "jest": "^27.0.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
